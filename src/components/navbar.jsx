@@ -35,19 +35,17 @@ const Navbar=()=>{
                                     <li><hr className="dropdown-divider"/></li>
                                   <Link to='computing' style={{textDecoration:'none'}}><li><a className="dropdown-item" href="#">Computing</a></li></Link> 
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Electronics</a></li>
+                                   <Link to='/electronics' style={{textDecoration:'none'}}> <li><a className="dropdown-item" href="#">Electronics</a></li></Link> 
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Fashion</a></li>
+                                  <Link to='/fashion' style={{textDecoration:'none'}}><li><a className="dropdown-item" href="#">Fashion</a></li></Link>  
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Gaming</a></li>
+                                  <Link to='/game' style={{textDecoration:'none'}}><li><a className="dropdown-item" href="#">Gaming</a></li></Link>
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Health & Beauty</a></li>
+                                   <Link to='/health' style={{textDecoration:'none'}}><li><a className="dropdown-item" href="#">Health & Beauty</a></li></Link>
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">SuperMarket</a></li>
+                                   <Link to='/super' style={{textDecoration:'none'}}><li><a className="dropdown-item" href="#">SuperMarket</a></li></Link> 
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Other Categories</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Phones & Tablets</a></li>
+                                   <Link to='/Phone' style={{textDecoration:'none'}}><li><a className="dropdown-item" href="#">Phones & Tablets</a></li></Link> 
                                     <li><hr className="dropdown-divider"/></li>
                           </ul>
                     </li>

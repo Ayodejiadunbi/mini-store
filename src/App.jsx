@@ -24,6 +24,15 @@ import Appliances from './components/appliances';
 import { CartProvider } from 'react-use-cart';
 import Babyproduct from './components/babyproducts';
 import Computing from './components/computing';
+import Electronics from './components/electronics';
+import Fashion from './components/fashion';
+import Menfash from './components/menfash';
+import Womenfash from './components/womenfash';
+import Kidfashion from './components/kidfashion';
+import Game from './components/game';
+import Health from './components/health';
+import Super from './components/super';
+import Phone from './components/phone';
 
 
 function App() {
@@ -55,6 +64,15 @@ function App() {
               <Route path='/appliances' element={<Appliances/>}/>
               <Route path='/babyproducts' element={<Babyproduct/>}/>
               <Route path='/computing' element={<Computing/>}/>
+              <Route path='/electronics' element={<Electronics/>}/>
+              <Route path='/fashion' element={<Fashion/>}/>
+              <Route path='/menfash' element={<Menfash/>}/>
+              <Route path='/womenfash' element={<Womenfash/>}/>
+              <Route path='/kidfashion' element={<Kidfashion/>}/>
+              <Route path='/game' element={<Game/>}/>
+              <Route path='/health' element={<Health/>}/>
+              <Route path='/super' element={<Super/>}/>
+              <Route path='/phone' element={<Phone/>}/>
             </Routes> 
          </CartProvider>  
         <Footer/>

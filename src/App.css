@@ -18,7 +18,16 @@ body{
 .maincontainer,
 .appliance,
 .babyproduct,
-.computing{
+.computing,
+.electronics,
+.fashion,
+.menfash,
+.womenfash,
+.health,
+.game,
+.kids,
+.supermarket,
+.phone{
     padding: 0rem 5rem;
     margin-top: 8rem;
 }

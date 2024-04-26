@@ -24,7 +24,7 @@ import oil from '../assets/kingsoil.png'
 import inverter from '../assets/inverter.png'
 import generator from '../assets/generators (1).png'
 import power from '../assets/power-bank.png'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -51,7 +51,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">ADIDAS Advantage Lifestyle Court Lace Shoes</h5>
                                            <p className="card-text">$45</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                          <Link to='/fashion'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -65,7 +65,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Indomie Regular Chicken Flavour 70g X 40</h5>
                                            <p className="card-text">$57</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/super'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -78,7 +78,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Zealot S32 Grey-green TWS Bluetooth Portable Speaker</h5>
                                            <p className="card-text">$15</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/electronics'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -91,7 +91,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Nexus 32 Inches FHD TV H620B(SA)</h5>
                                            <p className="card-text">$245</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/electronics'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                   </div>
 
@@ -103,35 +103,47 @@ const LandingPage =()=> {
                             <h5>Seamless Shopping</h5>
                            </div>
 
-                           <div className='section2' style={{display:'flex', gap:'10px', border:'10px solid white', backgroundColor:'white', borderRadius:'3px'}}>
+                          <div className='row'>
+                            <div className='col-12'>
+                                 <div className='section2' style={{display:'flex', gap:'10px', border:'10px solid white', backgroundColor:'white', borderRadius:'3px'}}>
 
-                                    <div>
-                                      <img src={kitchen} alt='Kitchen Scale' style={{width:'41.5rem'}}/>
-                                    </div>
+                                                   <div>
+                                                     <img src={kitchen} alt='Kitchen Scale' style={{width:'41.5rem'}}/>
+                                                   </div>
 
-                                    <div >
-                                       <img src={airfryers} alt='Air Fryers' style={{width:'41.5rem'}}/>
-                                    </div>
+                                                   <div >
+                                                      <img src={airfryers} alt='Air Fryers' style={{width:'41.5rem'}}/>
+                                                   </div>
 
+                                </div>
+
+
+
+                            </div>
                           </div>
-                           
+                      
 
+                          <div className='row'>
+                            <div className='col-12'>
 
-                          <div className='section3' style={{display:'flex', gap:'10px', border:'10px solid white', backgroundColor:'white',marginTop:'2rem', borderRadius:'3px'}}>
+                                <div className='section3' style={{display:'flex', gap:'10px', border:'10px solid white', backgroundColor:'white',marginTop:'2rem', borderRadius:'3px'}}>
                    
-                                <div >
-                                    <img src={home} alt='Home Picture' style={{width:'27rem'}}/>
-                                </div>
+                                          <div >
+                                              <img src={home} alt='Home Picture' style={{width:'27rem'}}/>
+                                          </div>
 
-                                <div>
-                                    <img src={fashion} alt='Fashion Picture' style={{width:'27.5rem'}}/>
-                                </div>
+                                          <div>
+                                              <img src={fashion} alt='Fashion Picture' style={{width:'27.5rem'}}/>
+                                          </div>
 
-                                <div>
-                                    <img src={accessories} alt='Accesories Picture' style={{width:'28rem'}}/>
-                                </div>
+                                          <div>
+                                              <img src={accessories} alt='Accesories Picture' style={{width:'28rem'}}/>
+                                          </div>
 
+                                </div>
+                            </div>
                           </div>
+                    
 
 
                            <div className='banner' style={{display:'flex',justifyContent:"center", textAlign:'center', backgroundColor:'#96D2C8', marginTop:'2rem'}}>
@@ -193,7 +205,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Binatone 1.5 Litres Blender With Grinder (BLG-412) - Black</h5>
                                            <p className="card-text">$95</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/appliances'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -207,7 +219,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Haier Thermocool 2.5kVA/2.0kW  Generator (BOBO 2800ES)</h5>
                                            <p className="card-text">$345</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                          <Link to='/electronics'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -221,7 +233,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Men Trendy Zipper Turtleneck  Jackets Sport Coats - White</h5>
                                            <p className="card-text">$5</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/fashion'><a href="#" className="btn btn-outline-primary">View More</a></Link> 
                                          </div>
                                     </div>
 
@@ -235,7 +247,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Nexus 800ml (NX-4050) Vita SmoothMix Smoothie Blender</h5>
                                            <p className="card-text">$17</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/appliances'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -249,7 +261,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">XIAOMI Redmi 13C 6.74 8GB RAM/256GB ROM Android  Black</h5>
                                            <p className="card-text">$257</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/phone'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -262,7 +274,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Men Shoes Sneakers Running Shoes Breathable Non-Slip Fitness</h5>
                                            <p className="card-text">$9</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/fashion'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -275,7 +287,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Scanfrost 1.5HP Wall Split Air Conditioner- White</h5>
                                            <p className="card-text">$545</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/electronics'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
@@ -288,7 +300,7 @@ const LandingPage =()=> {
                                          <div className="card-body">
                                            <h5 className="card-title">Devon KingS Cooking Oil 5L Similar products from Devon KingS</h5>
                                            <p className="card-text">$10</p>
-                                           <a href="#" className="btn btn-outline-primary">View More</a>
+                                           <Link to='/super'><a href="#" className="btn btn-outline-primary">View More</a></Link>
                                          </div>
                                     </div>
 
